@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Quiz App</title>
+  <!-- link to css file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="logo">Quiz </div>
+    <ul class="nav-list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Quiz</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- START PAGE -->
+  <section id="start-page">
+    <h1>Welcome to the Quiz Website</h1>
+    <button id="start-btn">Start Quiz</button>
+  </section>
+
+  <!-- QUIZ PAGE -->
+  <section id="quiz-page" class="hidden">
+    <h2 id="question">Question will appear here</h2>
+    <div id="options"></div>
+    <div class="btn-group">
+      <button id="next-btn">Next</button>
+      <button id="restart-btn">Restart</button>
+    </div>
+  </section>
+
+  <!-- RESULT PAGE -->
+  <section id="result-page" class="hidden">
+    <h1 id="result"></h1>
+    <button id="restart-final-btn">Restart Quiz</button>
+  </section>
+<!-- link to script file -->
+  <script src="script.js"></script>
+</body>
+</html>
